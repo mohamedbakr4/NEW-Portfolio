@@ -55,7 +55,10 @@ export default function TypingEffect() {
 
       <div style={styles.buttons} className="divbutton">
         <button type="submit" className="btnSecondary">
-          <a href="/public/cv Mo Bakr.pdf" download="/public/cv Mo Bakr.pdf">
+          <a
+            href={`${import.meta.env.BASE_URL}cv-Mo-Bakr.pdf`}
+            download="cv-Mo-Bakr.pdf"
+          >
             Download My CV
           </a>
         </button>

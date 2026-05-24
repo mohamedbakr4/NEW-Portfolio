@@ -6,7 +6,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 const Header = () => {
   return (
     <header className="  flex">
-      <img className="img" src="/public/Untitled-2.png" />
+      <img className="img" src={`${import.meta.env.BASE_URL}Untitled-2.png`} />
 
       <nav>
         <ul className="flex">

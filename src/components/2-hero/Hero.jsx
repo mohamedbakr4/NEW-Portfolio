@@ -16,7 +16,7 @@ const Hero = () => {
             initial={{ transform: "scale(0)" }}
             animate={{ transform: "scale(1.1)" }}
             transition={{ damping: 6, type: "spring", stiffness: 100 }}
-            src="/public/11zon_cropped.png"
+            src={`${import.meta.env.BASE_URL}11zon_cropped.png`}
             className="avatar"
           />
           <div className="icon-verified"></div>
