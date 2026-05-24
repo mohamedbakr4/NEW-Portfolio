@@ -2,7 +2,7 @@ export const myProjects = [
   {
     projectTitle: "super Dashboard",
     category: ["react"],
-    imgPath: `${import.meta.env.BASE_URL}Screenshot-2026-05-22.png`,
+    imgPath: `${import.meta.env.BASE_URL}Screenshot 2026-05-22 153648.png`,
     link: "https://mohamedbakr4.github.io/Dashboard/",
     suptitel:
       "Dashboard project built using React and Material UI consisting of (11) pages",
