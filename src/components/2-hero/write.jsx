@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import "./hero.css";
 const texts = [
-  "develop web site",
+  'Full Stack Software Engineer',
   "Building a pro website",
+  "develop web site",
   "create UI/UX designs",
   "write clean code",
 ];
@@ -19,21 +20,17 @@ export default function TypingEffect() {
     const timeout = setTimeout(
       () => {
         if (!isDeleting) {
-          // اكتب حرف زيادة
           setDisplayText(currentText.substring(0, charIndex + 1));
           setCharIndex((prev) => prev + 1);
 
           if (charIndex + 1 === currentText.length) {
-            // خلصت الكلمة → استنى 1.5 ثانية وابدأ تمسح
             setTimeout(() => setIsDeleting(true), 1500);
           }
         } else {
-          // امسح حرف
           setDisplayText(currentText.substring(0, charIndex - 1));
           setCharIndex((prev) => prev - 1);
 
           if (charIndex - 1 === 0) {
-            // خلصت المسح → روح للكلمة الجاية
             setIsDeleting(false);
             setTextIndex((prev) => (prev + 1) % texts.length);
           }

@@ -32,17 +32,15 @@ const Hero = () => {
         </motion.h1>
 
         <p className="sub-title">
-          <span>I'm a web programmer and developer (front-end developer).</span>
-          <br />I have extensive experience and the ability to produce
-          sophisticated, high-tech, and responsive web pages, thanks to my
-          proficiency in{" "}
           <span>
-            HTML, CSS,JavaScript,Tailwind,and I am a React pro and have produced
-            high-quality projects quickly with clean code, utilizing frameworks
-            such as Material UI.
+            Full Stack Software Engineer with expertise in the MERN Stack
+            (MongoDB, Express.js, React, Node.js)
           </span>
-          I have the ability to connect front-end and back-end interfaces using
-          an application programming interface (API).
+          <br /> Experienced in developing secure, scalable, and
+          high-performance web applications. Skilled in designing REST APIs,
+          integrating databases, authentication systems, and building responsive
+          front-end interfaces. Committed to writing clean, reusable code and
+          delivering reliable solutions that meet business needs.
         </p>
       </div>
 
